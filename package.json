@@ -15,8 +15,9 @@
     "check-formatting": "prettier -c './**/*.cfg' './**/*.ini' './**/*.md' './**/*.toml' './**/*.yml' ./.prettierrc ./.style.yapf && poetry run isort . --check && poetry run yapf -rd ratelimit-stubs/*/*.pyi ratelimit-stubs/*.pyi",
     "check-spelling": "cspell --no-progress './**/*'  './**/.*'",
     "format": "prettier -w './**/*.cfg' './**/*.ini' './**/*.md' './**/*.toml' './**/*.yml' ./.prettierrc ./.style.yapf && poetry run isort . && poetry run yapf -ri ratelimit-stubs/*/*.pyi ratelimit-stubs/*.pyi",
+    "mypy": "poetry run mypy ratelimit-stubs",
     "pylint": "poetry run pylint ratelimit-stubs/*.pyi",
-    "qa": "yarn pylint && yarn check-spelling && yarn check-formatting"
+    "qa": "yarn mypy && yarn pylint && yarn check-spelling && yarn check-formatting"
   },
   "version": "0.0.6"
 }
