@@ -1,0 +1,22 @@
+{
+  "contributors": [
+    "Andrew Udvare <audvare@gmail.com>"
+  ],
+  "devDependencies": {
+    "cspell": "^6.31.1",
+    "prettier": "^2.8.8",
+    "prettier-plugin-ini": "^1.1.0",
+    "prettier-plugin-toml": "^0.3.1"
+  },
+  "license": "MIT",
+  "name": "ratelimit-types",
+  "repository": "git@github.com:Tatsh/ratelimit-types.git",
+  "scripts": {
+    "check-formatting": "prettier -c './**/*.cfg' './**/*.ini' './**/*.md' './**/*.toml' './**/*.yml' ./.prettierrc ./.style.yapf && poetry run isort . --check && poetry run yapf -rd ratelimit-stubs/*/*.pyi ratelimit-stubs/*.pyi",
+    "check-spelling": "cspell --no-progress './**/*'  './**/.*'",
+    "format": "prettier -w './**/*.cfg' './**/*.ini' './**/*.md' './**/*.toml' './**/*.yml' ./.prettierrc ./.style.yapf && poetry run isort . && poetry run yapf -ri ratelimit-stubs/*/*.pyi ratelimit-stubs/*.pyi",
+    "pylint": "poetry run pylint ratelimit-stubs/*.pyi",
+    "qa": "yarn pylint && yarn check-spelling && yarn check-formatting"
+  },
+  "version": "0.0.6"
+}
