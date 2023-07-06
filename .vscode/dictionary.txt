@@ -17,6 +17,7 @@ builtins
 cachedir
 classmethod
 cmdclass
+codeql
 colenabled
 colorder
 colwidth
