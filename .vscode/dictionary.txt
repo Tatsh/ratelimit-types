@@ -36,11 +36,13 @@ delslice
 dets
 distutils
 docstrings
+docutils
 downloaders
 ecda
 endregion
 epub
 errnote
+esbonio
 excinfo
 execfile
 filesize
