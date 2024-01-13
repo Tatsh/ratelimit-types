@@ -21,12 +21,14 @@ codeql
 colenabled
 colorder
 colwidth
+commitizen
 compat
 concat
 consoletitle
 contextlib
 contextmanager
 continuedl
+cookiecutter
 cookiefile
 cookiejar
 cookiesfrombrowser
@@ -36,12 +38,16 @@ delslice
 dets
 distutils
 docstrings
+doctrees
 docutils
 downloaders
 ecda
+editmsg
+eeyore
 endregion
 epub
 errnote
+esbenp
 esbonio
 excinfo
 execfile
@@ -72,6 +78,7 @@ infojson
 inlinevar
 isort
 itertools
+jinja
 keepvideo
 keyframes
 khtml
@@ -80,6 +87,7 @@ labelsize
 legacyserverconnect
 levelname
 levelno
+linters
 listformats
 listsubtitles
 livestreams
@@ -113,7 +121,9 @@ outro
 outtmpl
 overgeneral
 paren
+parens
 parseable
+pgpass
 pipx
 plabel
 playlistend
@@ -129,13 +139,17 @@ printtraffic
 prss
 pstate
 ptrackers
+pycache
+pylance
 pylint
+pyright
 pytest
 ratelimit
 ratelimit
 rcfile
 rdiv
 referer
+refs
 regexes
 rejecttitle
 reqtimeout
@@ -156,6 +170,7 @@ sindex
 speedintitle
 speedlistdl
 speedlistul
+sphinxdoc
 sponsorblock
 standarderror
 staticmethod
@@ -173,6 +188,7 @@ timeformat
 titlebar
 tkinter
 toctree
+tomlkit
 traceback
 traceback
 tryfirst
@@ -209,4 +225,5 @@ xirvik
 xrange
 xreadlines
 yapf
+yapfignore
 ytdl
