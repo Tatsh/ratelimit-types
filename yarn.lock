@@ -1077,10 +1077,10 @@ punycode.js@^2.3.1:
   resolved "https://registry.yarnpkg.com/punycode.js/-/punycode.js-2.3.1.tgz#6b53e56ad75588234e79f4affa90972c7dd8cdb7"
   integrity sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==
 
-pyright@^1.1.347:
-  version "1.1.347"
-  resolved "https://registry.yarnpkg.com/pyright/-/pyright-1.1.347.tgz#6d13cbfafbe4f065b02644a5799821b9975a3b64"
-  integrity sha512-n5sGnhT53daesmKNXcg/Bb/CdNO81O8pI+5YkEga++uJizX22rEiQMt1V5LGKTXm/92qTyJopxvhLnZpk/Ryqg==
+pyright@^1.1.348:
+  version "1.1.348"
+  resolved "https://registry.yarnpkg.com/pyright/-/pyright-1.1.348.tgz#4e544b33c4b3247b3b674fda0218a54e3ee1bf8a"
+  integrity sha512-Dezu8jwZLwh9c2JCrXbmOb5BSeuQRM6NdOqN0jpuYpSWH9T8uIyhchkLHdvZ9BjDuUG5QN/4LVtLNbyLQHZ5LQ==
   optionalDependencies:
     fsevents "~2.3.2"
 
