@@ -29,7 +29,7 @@ optional = true
 commitizen = "^3.29.1"
 mypy = "^1.11.2"
 rope = "^1.13.0"
-ruff = "^0.6.8"
+ruff = "^0.6.9"
 yapf = "^0.40.2"
 
 [tool.poetry.group.tests]
