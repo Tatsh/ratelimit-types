@@ -27,7 +27,7 @@ optional = true
 
 [tool.poetry.group.dev.dependencies]
 commitizen = "^3.30.0"
-mypy = "^1.12.1"
+mypy = "^1.13.0"
 rope = "^1.13.0"
 ruff = "^0.7.0"
 yapf = "^0.40.2"
