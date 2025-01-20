@@ -10,7 +10,7 @@
     "prettier-plugin-ini": "^1.3.0",
     "prettier-plugin-sort-json": "^4.1.1",
     "prettier-plugin-toml": "^2.0.1",
-    "pyright": "^1.1.391"
+    "pyright": "^1.1.392"
   },
   "license": "MIT",
   "markdownlint-cli2": {
