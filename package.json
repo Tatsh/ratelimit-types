@@ -60,7 +60,7 @@
     "prettier-plugin-sort-json": "^4.1.1",
     "prettier-plugin-toml": "^2.0.4",
     "pyright": "^1.1.400",
-    "yarn-audit-fix": "^10.1.0"
+    "yarn-audit-fix": "^10.1.1"
   },
   "homepage": "https://tatsh.github.io/ratelimit-types/",
   "keywords": ["pep561", "stubs", "types"],
@@ -78,7 +78,7 @@
     }
   },
   "name": "ratelimit-types",
-  "packageManager": "yarn@4.9.0",
+  "packageManager": "yarn@4.9.1",
   "prettier": {
     "endOfLine": "lf",
     "iniSpaceAroundEquals": true,
@@ -115,7 +115,7 @@
     "ruff": "poetry run ruff check",
     "ruff:fix": "poetry run ruff check --fix",
     "test": "poetry run pytest",
-    "test:cov": "yarn pytest --cov . --cov-report html --cov-report term-missing:skip-covered"
+    "test:cov": "yarn test --cov . --cov-report html --cov-report term-missing:skip-covered"
   },
   "version": "0.0.2"
 }

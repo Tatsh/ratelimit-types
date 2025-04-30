@@ -4,12 +4,11 @@ commitizen
 conftest
 coveragerc
 datatables
-debugpy
 djlint
 doctrees
-editmsg
 eeyore
 erdantic
+esbenp
 esbonio
 furb
 hoverxref
@@ -18,6 +17,7 @@ isort
 jinja
 jsonnet
 jsonschema
+lextudio
 libjsonnet
 mypy
 norecursedirs
@@ -32,7 +32,6 @@ pyright
 pytest
 regen
 schemafile
-sphinxdoc
 tatsh
 testpaths
 udvare
