@@ -4,7 +4,7 @@
 [![PyPI - Version](https://img.shields.io/pypi/v/ratelimit-types)](https://pypi.org/project/ratelimit-types/)
 [![GitHub tag (with filter)](https://img.shields.io/github/v/tag/Tatsh/ratelimit-types)](https://github.com/Tatsh/ratelimit-types/tags)
 [![License](https://img.shields.io/github/license/Tatsh/ratelimit-types)](https://github.com/Tatsh/ratelimit-types/blob/master/LICENSE.txt)
-[![GitHub commits since latest release (by SemVer including pre-releases)](https://img.shields.io/github/commits-since/Tatsh/ratelimit-types/v0.0.2/master)](https://github.com/Tatsh/ratelimit-types/compare/v0.0.2...master)
+[![GitHub commits since latest release (by SemVer including pre-releases)](https://img.shields.io/github/commits-since/Tatsh/ratelimit-types/v0.0.3/master)](https://github.com/Tatsh/ratelimit-types/compare/v0.0.3...master)
 [![QA](https://github.com/Tatsh/ratelimit-types/actions/workflows/qa.yml/badge.svg)](https://github.com/Tatsh/ratelimit-types/actions/workflows/qa.yml)
 [![mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
